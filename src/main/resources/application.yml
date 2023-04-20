@@ -1,0 +1,19 @@
+#SPRING DATABASE CONFIGURATION
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/SBootBase
+    driver-class-name: org.postgresql.Driver
+    username: root
+    password: Qwerty22$
+
+
+  #JPA
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+#SERVER
+server:
+  error:
+    include-message: always
